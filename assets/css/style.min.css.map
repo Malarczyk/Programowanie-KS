@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/_reset.scss",
+        "../sass/_variables.scss",
+        "../sass/_base.scss",
+        "../sass/_buttons.scss",
+        "../sass/sections/_navigation.scss",
+        "../sass/sections/_hero.scss",
+        "../sass/sections/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
