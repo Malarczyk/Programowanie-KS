@@ -1,3 +1,3 @@
 # Programowanie-KS
 
-Projekt blogu internetowego
+Projekt na zaliczenie przedmiotu Programowanie Klient - Serwer
