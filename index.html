@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2288c424c6.js" crossorigin="anonymous"></script>
     <title>Programowanie Klient-Serwer</title>
 
     <link rel="stylesheet" href="assets/css/style.min.css">
@@ -11,22 +12,117 @@
 <body>
 
     <!-- NAVIGATION -->
-    <nav>
-        nawigacja
+    <nav class="navbar">
+       <div class="navbar__social-media">
+           <i class="fab fa-facebook"></i>
+       </div>
+       <div class="navbar__logo">
+           <img src="assets/img/logo.png" alt="logo placeholder">
+       </div>
+       <div class="navbar__buttons">
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Contact</a></li>
+               <li><a style="font-weight: bold;" href="sign-in.php">Sign In</a></li>
+           </ul>
+       </div>
     </nav>
 
     <!-- HERO -->
-    <header>
-        hero
+    <header class="hero">
+        <div class="hero__image"><img src="assets/img/profile-photo.png" alt="profile photo placeholder"></div>
+        <div class="hero__description">
+            <p>
+               Hi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem vero eum expedita ipsam in, earum, amet quidem accusamus iure, veniam itaque veritatis nulla.
+            </p>
+        </div>
     </header>
 
     <!-- CONTENT -->
-    <section>
-        sekcja
+    <section class="content">
+        <div class="content__title">
+            <h1>Wszystkie wpisy</h1>
+        </div>
+
+        <div class="article">
+            <div class="article__title">
+                <div class="article__title__date">
+                    <h3>10 Mar</h3>
+                    <h3>2021</h3>
+                </div>
+                <div class="article__title__header">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+                </div>
+            </div>
+            <div class="article__body">
+                <div class="article__body__img">
+                    <img src="assets/img/art1.jpg" alt="">
+                </div>
+                <div class="article__body__text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi culpa facere magni ut eos nam illo, soluta, molestiae aperiam rem, ab eligendi atque doloremque velit dolorem minus pariatur dignissimos impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati numquam sequi culpa sit incidunt earum fugiat neque soluta...
+                </div>
+            </div>
+            <div class="article__footer">
+                <a class="btn btn-1" href="">Show more</a>
+            </div>
+        </div>
+
+        <div class="article">
+            <div class="article__title">
+                <div class="article__title__date">
+                    <h3>19 Gru</h3>
+                    <h3>2020</h3>
+                </div>
+                <div class="article__title__header">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+                </div>
+            </div>
+            <div class="article__body">
+                <div class="article__body__img">
+                    <img src="assets/img/art2.jpg" alt="">
+                </div>
+                <div class="article__body__text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi culpa facere magni ut eos nam illo, soluta, molestiae aperiam rem, ab eligendi atque doloremque velit dolorem minus pariatur dignissimos impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati numquam sequi culpa sit incidunt earum fugiat neque soluta...
+                </div>
+            </div>
+            <div class="article__footer">
+                <a class="btn btn-1" href="">Show more</a>
+            </div>
+        </div>
+
+
+        <div class="article">
+            <div class="article__title">
+                <div class="article__title__date">
+                    <h3>21 Sty</h3>
+                    <h3>2020</h3>
+                </div>
+                <div class="article__title__header">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+                </div>
+            </div>
+            <div class="article__body">
+                <div class="article__body__img">
+                    <img src="assets/img/art3.jpg" alt="">
+                </div>
+                <div class="article__body__text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi culpa facere magni ut eos nam illo, soluta, molestiae aperiam rem, ab eligendi atque doloremque velit dolorem minus pariatur dignissimos impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati numquam sequi culpa sit incidunt earum fugiat neque soluta...
+                </div>
+            </div>
+            <div class="article__footer">
+                <a class="btn btn-1" href="">Show more</a>
+            </div>
+        </div>
+
+        <div class="button">
+            <a href="#"> Załaduj więcej...</a>
+        </div>
+
+
     </section>
 
-    <footer>
-        footer
+    <footer class="footer">
+        All rights reserved &copy; 2021
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
